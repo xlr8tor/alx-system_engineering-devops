@@ -1,0 +1,3 @@
+#!/bin/bash
+echo {a..z}{a..z} | head -n 32 | tr " " "\n" | grep -v "oo"
+
